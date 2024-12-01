@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+}
+
+#logo {
+  color: white;
+  font-weight: 600;
+  font-size: 45px;
+  margin-left: 80px;
+  /* margin-top: 33px; */
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  height: 150px;
+  /* border: 2px solid white; */
+}
+
+#s-bar {
+  background-color: #262626;
+  border-radius: 15px;
+  width: 650px;
+  height: 53px;
+  /* margin-top: 33px; */
+  margin-left: 140px;
+  border: none;
+}
+
+::placeholder {
+  color: #ffffff33;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.13px;
+  padding-left: 40px;
+}
+
+.nbtn {
+  color: white;
+  background-color: #262626;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  border: none;
+  width: 134px;
+  height: 53px;
+  /* margin-top: 33px; */
+  margin-left: 70px;
+  border-radius: 15px;
+}
+
+.nbtn:hover {
+  color: rgb(254, 203, 3);
+}
+
+/*      hero section       */
+
+#hero-section {
+  width: 90vw;
+  height: 588px;
+  margin: auto;
+  /* border: 2px solid white; */
+  border-radius: 50px;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: #262626;
+  position: relative;
+}
+
+.hh {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  /* text-align: left; */
+  color: white;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.h-img {
+  background-color: rgb(254, 203, 3);
+  height: 105px;
+  width: 105px;
+  border-radius: 50%;
+  display: inline-block;
+  padding-left: 25px;
+  padding-top: 25px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+#h-text {
+  list-style-type: none;
+}
+#h-text > li{
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+#h-clock{
+    position:absolute;
+    top:120px;
+    right:90px;
+    background-color: rgb(254, 203, 3);
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+
+#clock-text{
+font-size: 35px;
+font-weight: 600;
+line-height: 52.5px;
+background-color: rgb(254, 203, 3);
+color:#262626;
+width: 260px;
+height: 107px;
+bottom: 55px;
+right: 70px;
+border-radius: 50px;
+position:absolute;
+padding-top: 25px;
+padding-left:30px;
+
+
+}
+
+/*       mid-section        */
+
+#catg-section{
+    /* border: 2px solid white; */
+    width: 90vw;
+    height: 120vh;
+    margin: auto;
+    margin-top: 70px ;
+    
+}
+
+#cards{
+    /* border: 2px solid white; */
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* z-index: 1; */
+}
+
+.card1{
+    /* border: 2px solid white; */
+    width: 346px;
+    height: 391px;
+    border-radius: 20px;
+    border: 3px solid #262626;
+    background-color:#1F1F1F;
+    box-shadow: 5px 5px 20px #262626;
+    padding:20px 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.ch{
+font-size: 30px;
+font-weight: 600;
+line-height: 45px;
+color:#C4C4C4;
+width: 270px;
+height: 53px;
+}
+.c-pra{
+font-size: 15px;
+font-weight: 400;
+line-height: 22.5px;
+color:#FFFFFFCC;
+height: 183px;
+width: 283px;
+}
+.c-btn{
+    width: 169px;
+height: 58px;
+border-radius: 50px;
+background-color: rgb(254, 203, 3);
+color:#262626;
+font-size: 15px;
+font-weight: 600;
+line-height: 22.5px;
+text-align: center;
+padding-top: 18px;
+position:absolute;
+bottom: 20px;
+right: 20px ;
+}
+
+
+
+/*      Footer       */
+footer{
+    width: 95vw;
+height: 283px;
+border-radius: 30px;
+/* border: 2px solid white; */
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left:25px;
+padding-top: 25px;
+padding-left: 40px;
+box-shadow: 0px 0px 10px #00000040;
+background-color:  #262626;
+;
+}
+
+#col1>p{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color:#C4C4C4;
+width: 513px;
+}
+
+footer>div,footer>table{
+    display: inline-block;
+
+}
+footer>table{
+    width: 500px;
+    margin-left: 200px;
+}
+.logo1{
+    color: white;
+  font-weight: 600;
+  font-size: 45px;  
+}
+
+tr,td{
+    width: 100%;
+}
+th{
+    color:white;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+}
+
+td{
+    color:#C4C4C4;
+font-size: 20px;
+font-weight: 600;
+line-height: 35px;
+
+}
